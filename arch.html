@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ayodele Hassan">
+    <link rel="shortcut icon" href="/images/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/Stylees.css">
+    <title>Product preview card component</title>
+</head>
+<body>
+    <main class="container">
+            <div class="sub-cont">
+                <picture>
+                    <source srcset="/images/image-product-desktop.jpg" media="(min-width: 30rem)" width="600" height="900">
+                    <img src="/images/image-product-mobile.jpg" alt="An preview of the product" width="686" height="408">
+                </picture>     
+            </div>
+
+            <div class="sub-cont">
+
+                <article class="content margin">
+                    <h5>PERFUME</h5>
+                    <h1 class="margin">Gabrielle Essence Eau De Parfum</h1>
+
+                    <p class="margin">
+                        A floral solar and voluptous interpretation composed by Oliver Polgem, Perfumer-Creator for the House of CHANEL.
+                    </p>
+                    <div class="price margin">
+                        <h1 class="tag">$149.99</h1>
+                        <h5 class="ruled-out">$169.99</h5>
+                    </div>
+                    <div class="a">
+                        <a class="chart">
+                            <img src="images/icon-cart.svg" alt="" aria-hidden="true" class="cart">
+                            <span class="add">Add to Cart</span>
+                        </a>
+                    </div>
+                </article>
+            </div>
+    </main>
+</body>
+</html>
