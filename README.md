@@ -8,7 +8,7 @@
 ## Link
 
 - l
-Live site URL: https://xtrum.github.io/product-previee-card-component-main/
+Live site URL: https://xtrum.github.io/product-preview-card-component-main/
 
 ## Tools
 - Semantic HTML5 markup
