@@ -24,7 +24,6 @@ body{
     display: grid;
     place-content: center;
     background-color: var(--CREAM);
-    margin: 2rem;
     padding: 3rem;
 }
 
