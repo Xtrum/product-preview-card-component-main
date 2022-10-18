@@ -33,7 +33,7 @@ body{
     flex-direction: column;
     background-color: var(--WHITE);
     border-radius: 1rem;
-    max-inline-size: 30rem;
+    inline-size: 30rem;
     block-size: auto;
     gap: 0.5rem;
     overflow: hidden;
